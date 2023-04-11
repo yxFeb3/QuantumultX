@@ -1,0 +1,18 @@
+#爱思极速版
+^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml url reject
+
+#豆瓣
+^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash url reject
+
+#顺丰速运
+^https://ccsp-egmas.sf-express.com/cx-app-base/base/app/ad/queryInfoFlow url script-response-body https://github.com/ddgksf2013/Scripts/raw/master/shunfeng_json.js
+
+#铁路12306
+^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList url script-analyze-echo-response https://github.com/ddgksf2013/Scripts/raw/master/12306.js
+
+#智行火车票
+^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif url reject
+^https:\/\/m\.ctrip\.com\/restapi\/.+json\/tripAds url reject
+
+
+hostname = list-app-m.i4.cn, api.douban.com, ccsp-egmas.sf-express.com, ad.12306.cn, m.ctrip.com, ma-adx.ctrip.com
