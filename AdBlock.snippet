@@ -1,4 +1,4 @@
-hostname = list-app-m.i4.cn, pan.baidu.com, api.douban.com, ccsp-egmas.sf-express.com, ad.12306.cn, ma-adx.ctrip.com, m.ctrip.com
+hostname = list-app-m.i4.cn, pan.baidu.com, api.douban.com, ccsp-egmas.sf-express.com, ad.12306.cn, mp.weixin.qq.com, ma-adx.ctrip.com, m.ctrip.com
 
 # 爱思极速版 开屏广告
 ^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml url reject
@@ -15,6 +15,9 @@ hostname = list-app-m.i4.cn, pan.baidu.com, api.douban.com, ccsp-egmas.sf-expres
 
 # 铁路12306 开屏广告
 ^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList url script-analyze-echo-response https://github.com/ddgksf2013/Scripts/raw/master/12306.js
+
+# 微信公众号
+^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|relatedarticle)\? url reject-dict
 
 # 智行火车票
 ^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif url reject
