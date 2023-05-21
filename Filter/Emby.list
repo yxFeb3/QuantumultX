@@ -1,9 +1,14 @@
+# 佛系
 host, 1.4545.cf, Emby
-host, emby.misakaf.org, Emby
-host, cdn.misakaf.org, Emby
-host, fk.imetyou.top, Emby
-host, embyplus.org, Emby
+# 剧狗
 host, ju.dog, Emby
+# MisakaF
+host-suffix, misakaf.org, Emby
+# paul
 host-suffix, imetyou.top, Emby
-host, free.emby.eu.org, Emby
-host, 9wfree.emby.eu.org, Emby
+# TreeDiagram
+host, 789.123456.al, Emby
+# 星光
+host-suffix, emby.eu.org, Emby
+# 纸片人小站
+host, embyplus.org, Emby
