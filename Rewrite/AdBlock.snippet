@@ -1,4 +1,4 @@
-hostname = list-app-m.i4.cn, pan.baidu.com, app.bilibili.com, api.douban.com, ccsp-egmas.sf-express.com, ad.12306.cn, mp.weixin.qq.com, ma-adx.ctrip.com, m.ctrip.com
+hostname = list-app-m.i4.cn, pan.baidu.com, api.douban.com, ccsp-egmas.sf-express.com, ad.12306.cn, mp.weixin.qq.com, ma-adx.ctrip.com, m.ctrip.com
 
 # 爱思全能版 开屏广告
 ^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml url reject
@@ -6,9 +6,6 @@ hostname = list-app-m.i4.cn, pan.baidu.com, app.bilibili.com, api.douban.com, cc
 # 百度网盘
 ^https:\/\/pan\.baidu\.com\/act\/api\/activityentry\? url reject-dict
 ^https:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/adx\? url reject-dict
-
-# bilibili 猜你想搜
-^https:\/\/app\.bilibili\.com\/bilibili\.app\.interface\.v1\.Search\/DefaultWords$ url reject
 
 # 豆瓣 开屏广告
 ^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash url reject
